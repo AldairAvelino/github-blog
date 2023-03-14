@@ -1,1 +1,8 @@
 @import url('./variable.css');
+@import url('./reset.css');
+
+#header {
+    width: 100%;
+    height: 296px;
+    background-color: green;
+}
