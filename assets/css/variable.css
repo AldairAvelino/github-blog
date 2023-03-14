@@ -1,10 +1,17 @@
 :root{
+    /* This is for the body background */
     --bg-color: #071422;
-    
+
+    /* These are for all the text color and also for icons */
     --card-title: #E7EDF4;
     --card-paragraph: #AFC2D4;
     --card-icons-text-and-post: #C4D4E3;
-    --gitHub-link: #3294F8;
+    --link: #3294F8;
     --number-of-post: #7B96B2;
     --placeholder-text: #3A536B;
+
+    /* These are for normal box and to code box */
+    --card-box: #0B1B2B;
+    --code-box: #112131;
+
 }
