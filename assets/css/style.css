@@ -1,8 +1,22 @@
 @import url('./variable.css');
 @import url('./reset.css');
 
+#bg {
+    background-color: var(--bg-color);
+}
+
 #header {
     width: 100%;
     height: 296px;
-    background-color: green;
+    background-image: url('../images/cover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header div {
+    display: block;
+    margin: auto;
 }
