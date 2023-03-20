@@ -22,31 +22,49 @@
     margin: auto;
 }
 
-#main {}
+#main .row{
+    display: flex;
+    justify-content: center;
+}
 
 #main .card {
     width: 416px;
-    height: 260px;
-    padding: 16px;
+    height: 220px;
+    padding: 0px 32px 32px 32px;
     background-color: var(--card-box);
     border: 1px solid var(--card-box);
     border-radius: 10px;
+    margin: 1%;
+}
+
+#main .card .card-header {
+    display: flex;
+    justify-content: space-between;
 }
 
 #main .card .card-header .card-title {
     font-family: 'NunitoBold', Arial;
     color: var(--card-title);
     font-size: 20px;
+    background-color: red;
+    line-height: 130%;
+    padding: 32px 16px 20px 0px;
 }
 
 #main .card .card-header .card-days {
     color: var(--number-of-post);
     font-family: 'NunitoRegular', Arial;
+    width: 100px;
     font-size: 14px;
+    margin-left: 25px;
+    padding: 37px 0px 32px 0px;
+    background-color: green;
 }
 
 #main .card .card-paragraph {
     color: var(--card-paragraph);
     font-family: 'NunitoRegular', Arial;
     font-size: 16px;
+    text-align: left;
+    background-color: blue;
 }
