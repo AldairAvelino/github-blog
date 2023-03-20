@@ -1,4 +1,5 @@
 @import url('./variable.css');
+@import url('./fonts.css');
 @import url('./reset.css');
 
 #bg {
@@ -23,6 +24,29 @@
 
 #main {}
 
-#main .card {}
+#main .card {
+    width: 416px;
+    height: 260px;
+    padding: 16px;
+    background-color: var(--card-box);
+    border: 1px solid var(--card-box);
+    border-radius: 10px;
+}
 
+#main .card .card-header .card-title {
+    font-family: 'NunitoBold', Arial;
+    color: var(--card-title);
+    font-size: 20px;
+}
 
+#main .card .card-header .card-days {
+    color: var(--number-of-post);
+    font-family: 'NunitoRegular', Arial;
+    font-size: 14px;
+}
+
+#main .card .card-paragraph {
+    color: var(--card-paragraph);
+    font-family: 'NunitoRegular', Arial;
+    font-size: 16px;
+}
