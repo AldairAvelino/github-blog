@@ -46,7 +46,6 @@
     font-family: 'NunitoBold', Arial;
     color: var(--card-title);
     font-size: 20px;
-    background-color: red;
     line-height: 130%;
     padding: 32px 16px 20px 0px;
 }
@@ -58,7 +57,6 @@
     font-size: 14px;
     margin-left: 25px;
     padding: 37px 0px 32px 0px;
-    background-color: green;
 }
 
 #main .card .card-paragraph {
@@ -66,5 +64,4 @@
     font-family: 'NunitoRegular', Arial;
     font-size: 16px;
     text-align: left;
-    background-color: blue;
 }
