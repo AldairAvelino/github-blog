@@ -144,6 +144,7 @@
     background-color: var(--input);
     border-radius: 8px;
     border: 1px solid var(--card-box);
+    color: var(--input-text);
 }
 
 #main .post-and-search .search input::placeholder {
