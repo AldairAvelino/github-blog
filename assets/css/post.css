@@ -120,8 +120,8 @@
 }
 
 #main .post-description .paragraph-link .link {
-    text-decoration: none;
     font-family: 'NunitoRegular', Arial;
+    color: var(--link);
 }
 
 #main .post-description .code-post {
