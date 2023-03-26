@@ -14,5 +14,9 @@
 
     /* These are for normal box and to code box */
     --card-box: #0B1B2B;
-    /* --card-box: #112131; */
+    
+    /* Code Variable Colors */
+    --variable: #80ABD6;
+    --variable-value: #6AD445;
+    --code-box: #112131;
 }
