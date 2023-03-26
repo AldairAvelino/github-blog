@@ -1,3 +1,95 @@
 @import url('./reset.css');
 @import url('./fonts.css');
 @import url('./variable.css');
+
+#main .post-card {
+    width: 988px;
+    height: 190px;
+    background-color: var(--card-box);
+    margin: -70px auto;
+    border: 1px solid var(--card-box);
+    border-radius: 10px;
+}
+
+#main .post-card .post {
+    margin: 40px 0px 0px 32px;
+}
+
+#main .post-card .post .post-menu {
+    display: flex;
+    margin-bottom: 16px;
+    justify-content: space-between;
+}
+
+#main .post-card .post .post-menu .back-option {
+    font-family: 'NunitoBold', Arial;
+    font-size: 12px;
+    color: var(--link);
+    text-transform: uppercase;
+}
+
+#main .post-card .post .post-menu .back {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+
+#main .post-card .post .post-menu .back {
+    content: url('./../images/svg/chevron-left-solid.svg');
+}
+
+#main .post-card .post .post-menu .share-option {
+    color: var(--link);
+    text-transform: uppercase;
+    font-family: 'NunitoBold', Arial;
+    font-size: 12px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+#main .post-card .post .post-menu .share-option .share {
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+}
+
+#main .post-card .post .post-menu .share-option .share {
+    content: url('./../images/svg/arrow-up-right-from-square-solid.svg');
+}
+
+#main .post-card .post .post-title h3 {
+    font-size: 24px;
+    font-family: 'NunitoBold', Arial;
+    color: var(--card-paragraph);
+    margin-bottom: 24px;
+    line-height: 30px;
+}
+
+#main .post-card .post .post-icons span {
+    font-size: 16px;
+    font-family: 'NunitoRegular', Arial;
+    color: var(--card-icons-text-and-post);
+}
+
+#main .post-card .post .post-icons .pr-24 {
+    margin-right: 24px;
+}
+
+#main .post-card .post .post-icons span i {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+
+#main .post-card .post .post-icons span .github {
+    content: url('./../images/svg/github-brands.svg');
+    fill: green;
+}
+
+#main .post-card .post .post-icons span .data {
+    content: url('./../images/svg/calendar-day-solid.svg');
+}
+
+#main .post-card .post .post-icons span .comment {
+    content: url('./../images/svg/comment-solid.svg');
+}
