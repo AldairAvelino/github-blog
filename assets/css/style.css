@@ -22,7 +22,112 @@
     margin: auto;
 }
 
-#main .row{
+#main {
+    margin: 0px auto;
+}
+
+#main .profile-configs {
+    width: 988px;
+    height: 212px;
+    background-color: var(--card-box);
+    margin: -70px auto;
+    border: 1px solid var(--card-box);
+    border-radius: 10px;
+}
+
+#main .profile-configs .profile {
+    display: flex;
+}
+
+#main .profile-configs .profile .profile-avatar {
+    width: 148px;
+    height: 148px;
+}
+
+#main .profile-configs .profile .profile-avatar .avatar {
+    margin: 32px 0px 32px 40px;
+}
+
+#main .profile-configs .profile .profile-info {
+    margin: 40px 0px 0px 32px;
+}
+
+#main .profile-configs .profile .profile-info .profile-grid {
+    display: flex;
+    margin-bottom: 16px;
+    justify-content: space-between;
+}
+
+#main .profile-configs .profile .profile-info .profile-grid .profile-name {
+    font-family: 'NunitoBold', Arial;
+    font-size: 24px;
+    color: var(--card-title);
+    margin-left: 32px;
+}
+
+#main .profile-configs .profile .profile-info .profile-grid .profile-link {
+    color: var(--link);
+    text-transform: uppercase;
+    font-family: 'NunitoBold', Arial;
+    font-size: 12px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+#main .profile-configs .profile .profile-info .profile-grid .profile-link .share {
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+}
+
+#main .profile-configs .profile .profile-info .profile-grid .profile-link .share {
+    content: url('./../images/svg/arrow-up-right-from-square-solid.svg');
+}
+
+#main .profile-configs .profile .profile-info .profile-description {
+    font-size: 16px;
+    font-family: 'NunitoRegular', Arial;
+    color: var(--card-paragraph);
+    margin-left: 32px;
+    margin-bottom: 24px;
+    line-height: 30px;
+}
+
+#main .profile-configs .profile .profile-info .profile-icons {
+    margin-left: 32px;
+}
+
+#main .profile-configs .profile .profile-info .profile-icons span {
+    font-size: 16px;
+    font-family: 'NunitoRegular', Arial;
+    color: var(--card-icons-text-and-post);
+    margin-left: 24px;
+}
+
+#main .profile-configs .profile .profile-info .profile-icons span i {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+
+#main .profile-configs .profile .profile-info .profile-icons span .github {
+    content: url('./../images/svg/github-brands.svg');
+    fill: green;
+}
+
+#main .profile-configs .profile .profile-info .profile-icons span .company {
+    content: url('./../images/svg/building-solid.svg');
+}
+
+#main .profile-configs .profile .profile-info .profile-icons span .followers {
+    content: url('./../images/svg/user-group-solid.svg');
+}
+
+#main .posts {
+    display: none;
+}
+
+#main .row {
     display: flex;
     justify-content: center;
 }
