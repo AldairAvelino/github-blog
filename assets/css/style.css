@@ -2,6 +2,11 @@
 @import url('./fonts.css');
 @import url('./variable.css');
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #bg {
     background-color: var(--bg-color);
 }
