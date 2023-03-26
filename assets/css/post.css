@@ -5,8 +5,8 @@
 #main .post-card {
     width: 988px;
     height: 190px;
-    background-color: var(--card-box);
     margin: -70px auto;
+    background-color: var(--card-box);
     border: 1px solid var(--card-box);
     border-radius: 10px;
 }
@@ -92,4 +92,54 @@
 
 #main .post-card .post .post-icons span .comment {
     content: url('./../images/svg/comment-solid.svg');
+}
+
+#main .post-description {
+    width: 988px;
+    height: 290px;
+    margin: 120px auto;
+    border-radius: 10px;
+    margin-bottom: 250px;
+}
+
+#main .post-description .first-paragraph,
+#main .post-description .paragraph-link,
+#main .post-description .second-paragraph {
+    margin: 20px 32px 0px 32px;
+    line-height: 35px;
+    letter-spacing: 1.3px;
+    font-size: 16px;
+}
+
+#main .post-description p {
+    color: var(--card-paragraph);
+    font-family: 'NunitoRegular', Arial;
+}
+
+#main .post-description p .strong {
+    font-family: 'NunitoBold', Arial;
+}
+
+#main .post-description .paragraph-link .link {
+    font-family: 'NunitoRegular', Arial;
+    text-decoration: none;
+}
+
+#main .post-description .code-post {
+    background-color: var(--code-box);
+    height: 70px;
+    padding: 30px 32px;
+    line-height: 30px;
+    font-family: 'NunitoRegular', Arial;
+    margin-top: 20px;
+}
+
+#main .post-description .code-post .variable {
+    color: var(--variable);
+    font-weight: 500;
+}
+
+#main .post-description .code-post .variable-value {
+    color: var(--variable-value);
+    font-weight: 500;
 }
