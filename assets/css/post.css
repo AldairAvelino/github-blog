@@ -2,8 +2,12 @@
 @import url('./fonts.css');
 @import url('./variable.css');
 
+#main .container {
+    margin: 0px 4px;
+}
+
 #main .post-card {
-    width: 988px;
+    width: 60%;
     height: 190px;
     margin: -70px auto;
     border-radius: 10px;
@@ -93,52 +97,60 @@
     content: url('./../images/svg/comment-solid.svg');
 }
 
-#main .post-description {
-    width: 988px;
+#main .container-description {
+    margin: 0px 4px;
+}
+
+#main .container-description .post-description {
+    width: 60%;
     height: 290px;
     margin: 120px auto;
     border-radius: 10px;
     margin-bottom: 250px;
 }
 
-#main .post-description .first-paragraph,
-#main .post-description .paragraph-link,
-#main .post-description .second-paragraph {
+#main .container-description .post-description .first-paragraph,
+#main .container-description .post-description .paragraph-link,
+#main .container-description .post-description .second-paragraph {
     font-size: 16px;
     line-height: 35px;
     letter-spacing: 1.3px;
     margin: 20px 32px 0px 32px;
 }
 
-#main .post-description p {
+#main .container-description .post-description p {
     color: var(--card-paragraph);
     font-family: 'NunitoRegular', Arial;
 }
 
-#main .post-description p .strong {
+#main .container-description .post-description p .strong {
     font-family: 'NunitoBold', Arial;
 }
 
-#main .post-description .paragraph-link .link {
+#main .container-description .post-description .paragraph-link .link {
     font-family: 'NunitoRegular', Arial;
     color: var(--link);
 }
 
-#main .post-description .code-post {
-    height: 70px;
+#main .container-description .post-description .container-code {
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#main .container-description .post-description .container-code .code-post {
+    height: 70px;
     line-height: 30px;
     padding: 30px 32px;
     background-color: var(--code-box);
     font-family: 'NunitoRegular', Arial;
 }
 
-#main .post-description .code-post .variable {
+#main .container-description .post-description .container-code .code-post .variable {
     font-weight: 500;
     color: var(--variable);
 }
 
-#main .post-description .code-post .variable-value {
+#main .container-description .post-description .container-code .code-post .variable-value {
     font-weight: 500;
     color: var(--variable-value);
 }
