@@ -31,7 +31,7 @@
 
 @media (max-width: 700px) {
     #main .profile-configs {
-        height: 270px;
+        height: 240px;
     }
 
     #main .profile-configs .profile .profile-info .profile-grid .profile-name {
@@ -80,14 +80,21 @@
 }
 
 @media (max-width: 600px) {
-    #main .profile-configs .profile .profile-info .profile-icons {
-        display: none;
+    #main .profile-configs .profile .profile-info .profile-icons span {
+        margin: 0px auto;
     }
 
     #main .profile-configs .profile .profile-avatar .avatar {
-        width: 100px;
-        height: 100px;
-        margin: 50px 0px 32px 10px;
+        margin: 0px;
+        display: none;
+    }
+
+    #main .profile-configs {
+        display: block;
+    }
+    #main .profile-configs .profile .profile-info {
+        margin-top: 30px;
+        margin-left: 0px;
     }
 
     #main .profile-configs .profile .profile-info .profile-grid .profile-name,
@@ -96,7 +103,7 @@
     }
 
     #main .profile-configs .profile .profile-info .profile-grid .profile-link .share {
-        margin-left: 30px;
+        margin-left: 7px;
     }
 
     #main .profile-configs .profile .profile-info .profile-description {
