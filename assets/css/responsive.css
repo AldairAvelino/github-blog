@@ -1,12 +1,116 @@
 @import url('./post.css');
 @import url('./style.css');
 
+/* Responsivity for Home Page */
+@media (max-width: 1090px) {
+    #main .profile-configs {
+        width: 90%;
+    }
+
+    #main .post-and-search {
+        width: 90%;
+    }
+
+    #main .card {
+        width: 37.8%;
+    }
+}
+
+@media (max-width: 1000px) {
+    #main .card {
+        width: 37.4%;
+    }
+}
+
+@media (max-width: 900px) {
+    #main .card {
+        width: 36.4%;
+    }
+
+}
+
+@media (max-width: 700px) {
+    #main .profile-configs {
+        height: 270px;
+    }
+
+    #main .profile-configs .profile .profile-info .profile-grid .profile-name {
+        font-size: 14px;
+    }
+
+    #main .profile-configs .profile .profile-info .profile-grid .profile-link {
+        font-size: 10px;
+    }
+
+    #main .profile-configs .profile .profile-info .profile-grid .profile-link .share,
+    #main .profile-configs .profile .profile-info .profile-icons span i {
+        width: 10px;
+        height: 10px;
+    }
+
+    #main .profile-configs .profile .profile-info .profile-icons span {
+        font-size: 12px;
+    }
+
+    #main .profile-configs .profile .profile-info .profile-description {
+        font-size: 14px;
+    }
+
+    #main .posts .row {
+        display: block;
+        margin: 0px 10px;
+    }
+
+    #main .card {
+        margin: 20px auto;
+        width: 82%;
+    }
+
+    #main .card .card-header .card-title {
+        font-size: 18px;
+    }
+
+    #main .card .card-header .card-days {
+        font-size: 12px;
+    }
+
+    #main .card .card-paragraph {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    #main .profile-configs .profile .profile-info .profile-icons {
+        display: none;
+    }
+
+    #main .profile-configs .profile .profile-avatar .avatar {
+        width: 100px;
+        height: 100px;
+        margin: 50px 0px 32px 10px;
+    }
+
+    #main .profile-configs .profile .profile-info .profile-grid .profile-name,
+    #main .profile-configs .profile .profile-info .profile-grid .profile-link {
+        margin-left: 2px;
+    }
+
+    #main .profile-configs .profile .profile-info .profile-grid .profile-link .share {
+        margin-left: 30px;
+    }
+
+    #main .profile-configs .profile .profile-info .profile-description {
+        font-size: 14px;
+        margin-left: 2px;
+        margin-bottom: 24px;
+    }
+}
 
 /* Responsivity for Post Page */
 @media (max-width: 1000px) {
     #bg {
         height: 160vh;
-    }    
+    }
 }
 
 @media (max-width: 900px) {
